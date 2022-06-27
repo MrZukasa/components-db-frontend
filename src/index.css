@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Libre+Barcode+39+Text&family=Shadows+Into+Light&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  html {
+    font-family: 'Dosis', sans-serif;
+  }
+}
+
+.App{
+  @apply flex flex-col min-h-screen bg-gray-200 dark:bg-slate-800 transition duration-200
+}
+
+.NavTitle {
+  font-family: 'Libre Barcode 39 Text', cursive;
+  @apply text-7xl dark:text-violet-400 text-violet-500 max-w-xl m-auto mt-4 mb-4 animate-pulse
+}
+
+.quote {
+  font-family: 'Shadows Into Light', cursive;
+  @apply text-4xl text-yellow-300 my-1 mx-1 italic animate-pulse
+}
+
+.signature {
+  font-family: 'Dosis', sans-serif;
+  @apply text-gray-400 text-base italic my-1 mx-2
+}
+
+.card {
+  font-family: 'Dosis', sans-serif;
+  @apply text-base flex opacity-80
+}
+
+.end {
+  @apply absolute bottom-20 right-10
+}
+
+.content {
+  @apply mb-auto mt-auto m-20;
+}
+
+input, textarea {
+  @apply block py-2.5 px-0 w-full font-semibold dark:font-normal text-gray-900 bg-transparent border-0 border-b-2 border-gray-400 appearance-none
+  dark:text-white dark:border-gray-600 dark:focus:border-violet-400 focus:outline-none focus:ring-0 focus:border-violet-400
+}
+
+label {
+  @apply peer-focus:font-medium absolute text-base text-gray-600 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75
+  top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-violet-400 peer-focus:dark:text-violet-400 peer-placeholder-shown:scale-100
+  peer-placeholder-shown:translate-y-0 peer-focus:scale-90 peer-focus:-translate-y-6 transition ease-in-out
+}
+
+.bottone {
+  @apply text-white bg-violet-500 dark:hover:bg-violet-700 hover:bg-indigo-400 focus:ring-1 focus:outline-none dark:focus:ring-violet-300 font-medium
+  rounded-lg text-base w-full sm:w-auto px-5 py-2.5 text-center focus:ring-violet-700 transition ease-in-out
+}
+
+.fade-anim img {
+  animation: fadeAnim 1s ease-out;
+}
+
+@keyframes fadeAnim {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
