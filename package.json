@@ -2,6 +2,7 @@
   "name": "components-db",
   "private": true,
   "version": "0.0.0",
+  "proxy": "https://components-db-backend.herokuapp.com/",
   "scripts": {
     "dev": "vite",
     "build": "vite build && mkdir .\\dist\\img\\ && copy .\\img\\ .\\dist\\img\\",
