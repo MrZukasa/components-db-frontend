@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 
 const images = [
-    "../img/background.jpg",
-    "../img/background1.jpg",
-    "../img/background2.jpg",
+    "../Images/background.jpg",
+    "../Images/background1.jpg",
+    "../Images/background2.jpg",
 ];
 
 let count = 0;
