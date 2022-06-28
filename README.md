@@ -1,1 +1,1 @@
-there it is https://isnt-mrzukasa-awesome.netlify.app/
+Frontend is available [here](https://isnt-mrzukasa-awesome.netlify.app/)
