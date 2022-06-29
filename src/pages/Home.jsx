@@ -4,17 +4,7 @@ import Transition from '../Transition';
 import Carousel from '../Carousel';
 
 const Home = () => {
-
-    // const divStyle = {
-    //     width: '100%',
-    //     height: '78vh',
-    //     backgroundImage: `url('/img/background.jpg')`,
-    //     backgroundSize: 'cover',
-    //     backgroundPosition: 'center',
-    //   };
-
     return (
-        // <motion.div style={divStyle} initial={Transition.initial} animate={Transition.animate} exit={Transition.exit} transition={Transition.transitionEffect}>
         <motion.div className="m-auto" initial={Transition.initial} animate={Transition.animate} exit={Transition.exit} transition={Transition.transitionEffect}>
             <Carousel />
             <div className="absolute top-40 left-10">
