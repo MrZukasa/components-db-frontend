@@ -1,1 +1,1 @@
-Frontend is available [here](https://isnt-mrzukasa-awesome.netlify.app/)
+Frontend is available [here](https://componentsdb.netlify.app/)
